@@ -4,9 +4,9 @@ Bongo's Checkout .net Library
 ## Instructions
 Example of use in C#:
 
-*We import the library to the project on "Reference".
-*Add  using "Vendor" (declare the reference in the classes).
-* Order Declaring variable in the same way.
+1. We import the library to the project on "Reference".
+2. Add  using "Vendor" (declare the reference in the classes).
+3. Order Declaring variable in the same way.
 
 ```
 order.ship_first_name="Test";
