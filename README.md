@@ -10,31 +10,31 @@ Example of use in C#:
 
 ```
 order.ship_first_name="Test";
-  order.ship_last_name = "Test";
-  order.ship_company = "Bongo";
-  order.ship_address_line_1 = "Direccion";
-  order.ship_address_line_2 = "Direccion";
-  order.ship_city = "LI";
-  order.ship_state = "LI";
-  order.ship_zip = "Lima11";
-  order.ship_country = "Peru";
-  order.ship_phone="3875454";
-  order.ship_email = "test@bongous.com";
+order.ship_last_name = "Test";
+order.ship_company = "Bongo";
+order.ship_address_line_1 = "Direccion";
+order.ship_address_line_2 = "Direccion";
+order.ship_city = "LI";
+order.ship_state = "LI";
+order.ship_zip = "Lima11";
+order.ship_country = "Peru";
+order.ship_phone="3875454";
+order.ship_email = "test@bongous.com";
 
-  order.productId[0] = "testtigerx122";
-  order.productName[0] = "Test Product";
-  order.productPrice[0] = "1.00";
-  order.productQ[0] = "1";
-
-
-  Client client = new Client(
-      settings["username"].ToString(),
-      settings["password"].ToString(),
-      settings["partnerKey"].ToString(),
-      settings["urlBbs"].ToString(),
-      settings["payLink"].ToString()
-  );
+order.productId[0] = "testtigerx122";
+order.productName[0] = "Test Product";
+order.productPrice[0] = "1.00";
+order.productQ[0] = "1";
 
 
-  string urlLocation = client.go(order);
+Client client = new Client(
+    settings["username"].ToString(),
+    settings["password"].ToString(),
+    settings["partnerKey"].ToString(),
+    settings["urlBbs"].ToString(),
+    settings["payLink"].ToString()
+);
+
+
+string urlLocation = client.go(order);
 ´´´
