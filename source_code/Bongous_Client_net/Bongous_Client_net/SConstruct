@@ -1,0 +1,3 @@
+env = Environment()
+env.Tool('mcs', toolpath=['scons-tools'])
+env.CLIProgram(source=['Cli.cs', 'Client.cs', 'Order.cs'])

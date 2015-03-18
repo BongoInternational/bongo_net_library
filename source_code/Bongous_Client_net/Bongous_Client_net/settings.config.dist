@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+    <add key="username" value="fill in here" />
+    <add key="password" value="fill in here" />
+    <add key="partnerKey" value="fill in here" />
+    <add key="urlBbs" value="fill in here" />
+    <add key="payLink" value="fill in here" />
+</Settings>
